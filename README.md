@@ -20,7 +20,7 @@ This repository documents my intense 30-day journey into the depths of Python pr
 | :--- | :--- | :--- | :--- |
 | **01** | Basic Syntax & Logic | ✅ Completed | Built foundational logic |
 | **02** | Advanced Git & Structure | ✅ Completed | Cleaned repo architecture |
-| **03** | [Insert Next Task] | 🔴 Pending | Target: [Insert Goal] |
+| **03** | Pandas: Data Manipulation & Cleaning | ✅ Completed |
 | **04** | - | ⏳ Coming Soon | - |
 
 ---
