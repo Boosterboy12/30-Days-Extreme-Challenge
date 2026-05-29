@@ -1,5 +1,7 @@
 # Importing Requirenents
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Loading The Dataset
 data = {
@@ -14,11 +16,11 @@ data = {
         "Hardik",
     ],
     "Match_Type": ["T20", "T20", "ODI", "ODI", "T20", "ODI", "T20", "ODI"],
-    "Runs": [82, 45, 110, 55, 12, 28, 64, None],  # Ek value missing hai!
+    "Runs": [82, 45, 110, 55, 12, 28, 64, None],
     "Balls": [53, 28, 95, 40, 9, 32, 35, 15],
 }
 df = pd.DataFrame(data)
-# Gathering Information From The Data & Of THe Data
+# Gathering Information From The Data & Of The Data
 print(df.describe())
 print(df.info())
 # Performing Functions On The Data
@@ -51,6 +53,13 @@ df["Batter_Style"] = df["Strike_Rate"].apply(batting_style)
 
 # Printing Cross Tabulations Table
 print(pd.crosstab(df["Player"], df["Match_Type"]))
+
+# Plotting The Graph
+pivot_table = df.pivot_table(
+    index="Player", values="Runs", columns="Balls", aggfunc="mean"
+)
+sns.heatmap(pivot_table,annot=True)
+plt.show()
 
 # Printing The Final Output
 print(df)
