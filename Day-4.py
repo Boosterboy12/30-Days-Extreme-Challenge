@@ -47,7 +47,6 @@ def batting_style(strike_rate):
     else:
         return "Anchor"
 
-
 # Assigning The Function And Craeting Another Column
 df["Batter_Style"] = df["Strike_Rate"].apply(batting_style)
 
