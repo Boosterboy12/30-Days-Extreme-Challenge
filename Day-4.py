@@ -58,7 +58,7 @@ print(pd.crosstab(df["Player"], df["Match_Type"]))
 pivot_table = df.pivot_table(
     index="Player", values="Runs", columns="Balls", aggfunc="mean"
 )
-sns.heatmap(pivot_table,annot=True)
+sns.heatmap(pivot_table,annot=True,fmt=".0f", cmap="rocket")
 plt.show()
 
 # Printing The Final Output
