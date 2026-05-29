@@ -27,7 +27,7 @@ print(df.info())
 # Task 1: Handle the missing value in 'Runs' for Hardik by filling it with 0.
 df["Runs"] = df["Runs"].fillna(0)
 # Task 2: Filter the data to create a new DataFrame that contains only 'T20' matches.
-data = df[df["Match_Type"] == "T20"]
+data = df[df["Match_Type"].str.contains("T20", na=False, case=False)]
 print(data)
 # Task 3: find the total 'Runs' scored by each individual 'Player'.
 print(df.groupby("Player")["Runs"].sum().sort_values(ascending=False))
@@ -47,6 +47,7 @@ def batting_style(strike_rate):
     else:
         return "Anchor"
 
+
 # Assigning The Function And Craeting Another Column
 df["Batter_Style"] = df["Strike_Rate"].apply(batting_style)
 
@@ -57,7 +58,7 @@ print(pd.crosstab(df["Player"], df["Match_Type"]))
 pivot_table = df.pivot_table(
     index="Player", values="Runs", columns="Balls", aggfunc="mean"
 )
-sns.heatmap(pivot_table,annot=True,fmt=".0f", cmap="rocket")
+sns.heatmap(pivot_table, annot=True, fmt=".0f", cmap="rocket")
 plt.show()
 
 # Printing The Final Output
