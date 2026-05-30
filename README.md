@@ -21,8 +21,8 @@ This repository documents my intense 30-day journey into the depths of Python pr
 | **01** | Basic Syntax & Logic | ✅ Completed | Built foundational logic |
 | **02** | Advanced Git & Structure | ✅ Completed | Cleaned repo architecture |
 | **03** | Pandas: Data Manipulation & Cleaning | ✅ Completed | Imported Data From Kaggle And Refined It |
-| **04** | - | ⏳ Coming Soon | - |
-
+| **04** | Advanced Pandas Functions | ✅ Completed | Did Advanced Pandas Functions & Made A Heatmap |
+| **05** | Basic Introduction To Matplotlib |✅ Completed | Plotted Basic Matplotlib Graphs |
 ---
 
 ## ⚙️ How to use this Repo?
