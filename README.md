@@ -1,9 +1,18 @@
 # 30-Days Extreme Coding Challenge 🚀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-Python%203.10+-blue?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Environment-VS%20Code-insignia?style=for-the-badge&logo=visual-studio-code" alt="VS Code">
-  <img src="https://img.shields.io/badge/VCS-Git%20%26%20GitHub-orange?style=for-the-badge&logo=github" alt="Git">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Language-Python%203.10+-blue?style=for-the-badge&logo=python" alt="Python">
+  </a>
+
+  <a href="https://code.visualstudio.com/">
+    <img src="https://img.shields.io/badge/Environment-VS%20Code-insignia?style=for-the-badge&logo=visual-studio-code" alt="VS Code">
+  </a>
+
+  <a href="https://github.com/Boosterboy12">
+    <img src="https://img.shields.io/badge/VCS-Git%20%26%20GitHub-orange?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+
   <img src="https://img.shields.io/badge/Status-Day%206%20Live-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
@@ -11,8 +20,7 @@
   <strong>"Consistency is the bridge between goals and accomplishment. Execute without mercy."</strong>
 </p>
 
-This repository documents my high-intensity 30-day journey into the depths of Data Analytics, Advanced Python, and Algorithmic Logic. This is not just about writing scripts; it's about building scalable pipeline logic, engineering custom data visualizations, and maintaining strict version control discipline.
-
+This repository documents my high-intensity 30-day journey into the depths of Data Analytics, Advanced Python, and Algorithmic Logic.
 ---
 
 ## 🎯 Key Features & Milestones
@@ -71,3 +79,4 @@ Passionate developer documenting a 30-day journey through Python, Data Analytics
 > "Discipline beats motivation. Consistency builds legends."
 
 ⭐ If you find this repository useful, consider giving it a star.
+
