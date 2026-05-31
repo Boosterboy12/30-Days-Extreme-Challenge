@@ -54,9 +54,13 @@ To run these data pipelines smoothly, the following system configurations are re
 ## 📥 Installation & Execution Protocol
 
 ### ① Clone the Command Center
+
 ```bash
-git clone [https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git](https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git)
-cd 30-Days-Extreme-Challenge ```
+git clone https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git
+cd 30-Days-Extreme-Challenge
+```
+
+---
 
 ## 🔥 Repository Maintainer
 
