@@ -1,49 +1,59 @@
-# 30-Days-Extreme-Coding-Challenge 🚀
+# 30-Days Extreme Coding Challenge 🚀
 
-> "Consistency is the bridge between goals and accomplishment."
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python%203.10+-blue?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Environment-VS%20Code-insignia?style=for-the-badge&logo=visual-studio-code" alt="VS Code">
+  <img src="https://img.shields.io/badge/VCS-Git%20%26%20GitHub-orange?style=for-the-badge&logo=github" alt="Git">
+  <img src="https://img.shields.io/badge/Status-Day%206%20Live-brightgreen?style=for-the-badge" alt="Status">
+</p>
 
-This repository documents my intense 30-day journey into the depths of Python programming. This is not just about writing code; it's about building logic, optimizing performance, and mastering the professional software development workflow.
+<p align="center">
+  <strong>"Consistency is the bridge between goals and accomplishment. Execute without mercy."</strong>
+</p>
 
----
-
-## 🛠 Tech Stack & Tools
-- **Language:** Python 3.x
-- **Version Control:** Git & GitHub
-- **Environment:** VS Code
-- **Key Concepts:** Data Structures, Algorithms, Automation, API Handling, and System Design.
-
----
-
-## 📅 Roadmap (Progress Tracker)
-
-| Day | Task/Challenge | Status | Notes |
-| :--- | :--- | :--- | :--- |
-| **01** | Basic Syntax & Logic | ✅ Completed | Built foundational logic |
-| **02** | Advanced Git & Structure | ✅ Completed | Cleaned repo architecture |
-| **03** | Pandas: Data Manipulation & Cleaning | ✅ Completed | Imported Data From Kaggle And Refined It |
-| **04** | Advanced Pandas Functions | ✅ Completed | Did Advanced Pandas Functions & Made A Heatmap |
-| **05** | Basic Introduction To Matplotlib |✅ Completed | Plotted Basic Matplotlib Graphs |
----
-
-## ⚙️ How to use this Repo?
-Every folder represents a day of the challenge.
-1. Clone the repo: `git clone https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git`
-2. Navigate to the specific day: `cd Day-X`
-3. Run the script: `python script_name.py`
+This repository documents my high-intensity 30-day journey into the depths of Data Analytics, Advanced Python, and Algorithmic Logic. This is not just about writing scripts; it's about building scalable pipeline logic, engineering custom data visualizations, and maintaining strict version control discipline.
 
 ---
 
-## 🎯 The Philosophy
-* **Extreme Focus:** No distractions.
-* **No Shortcuts:** Every line of code is written from scratch.
-* **Continuous Integration:** Daily pushes to ensure version control discipline.
+## 🎯 Key Features & Milestones
+
+* **Production-Grade Data Wrangling:** Deep dataset handling, cleaning, and matrix manipulations using Enterprise Pandas.
+* **Custom Aesthetic Visualizations:** Moving past boring defaults into advanced Matplotlib custom styling, combo plots, and dual-axis analytics.
+* **Strict CI/CD Workflow:** Daily automated pushes directly via terminal/VS Code to master Git architecture.
+* **No Shortcuts:** Every single logic block and visualization script is engineered from scratch.
 
 ---
 
-## 📬 Contact / Feedback
-If you have suggestions for my code or want to challenge me with a task, feel free to contact me or report an **Issue** or reach out!
+## 📊 Live Progress Tracker (Roadmap)
 
-*Let's build something massive.*
+| Day | Core Engineering Focus | Status | Deliverables & Insights |
+| :---: | :--- | :---: | :--- |
+| **01** | Basic Syntax & Algorithmic Logic | ✅ Done | Built foundational control flows and basic logic blocks. |
+| **02** | Advanced Git Workflows & Structure | ✅ Done | Modular repository mapping and structured clean file layouts. |
+| **03** | Pandas: Data Manipulation & Cleaning | ✅ Done | Ingested hardware datasets from Kaggle; executed deep cleaning pipelines. |
+| **04** | Advanced Pandas & Matrix Operations | ✅ Done | Handled aggregations, indexing, and generated relational Heatmaps. |
+| **05** | Matplotlib: Core Visual Foundations | ✅ Done | Categorical plotting (Vertical/Horizontal Bars, Scatters, Lines). |
+| **06** | **Matplotlib Destruction & Custom Art** | ⚡ *Live* | **[TODAY]** Mastered `plt.style`. Engineering Combo & Dual Y-Axis Dashboards. |
+| **07** | Advanced Data Viz & Seaborn Mastery | ⏳ Next | Target: Advanced statistical plotting and distribution charts. |
 
 ---
-*Maintained by [Boosterboy12]*
+
+## 📦 Environment & System Configuration
+
+To run these data pipelines smoothly, the following system configurations are recommended:
+
+| Resource | Minimum Requirement | Recommended Configuration |
+| :--- | :--- | :--- |
+| **Python Version** | Python 3.8 | Python 3.11+ |
+| **RAM** | 4 GB | 8 GB or above (For large Kaggle Dataframes) |
+| **IDE** | Terminal / IDLE | VS Code (With Jupyter Notebook Extensions) |
+| **Core Libraries** | `pandas`, `numpy` | `pandas`, `numpy`, `matplotlib`, `seaborn` |
+
+---
+
+## 📥 Installation & Execution Protocol
+
+### ① Clone the Command Center
+```bash
+git clone [https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git](https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git)
+cd 30-Days-Extreme-Challenge
