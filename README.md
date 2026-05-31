@@ -57,3 +57,11 @@ To run these data pipelines smoothly, the following system configurations are re
 ```bash
 git clone [https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git](https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git)
 cd 30-Days-Extreme-Challenge
+
+## 📬 Contact / Feedback
+If you have suggestions for my code or want to challenge me with a task, feel free to contact me or report an *Issue* or reach out!
+
+Let's build something massive.
+
+---
+Maintained by [Boosterboy12]
