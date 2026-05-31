@@ -58,10 +58,12 @@ To run these data pipelines smoothly, the following system configurations are re
 git clone [https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git](https://github.com/Boosterboy12/30-Days-Extreme-Challenge.git)
 cd 30-Days-Extreme-Challenge
 
-## 📬 Contact / Feedback
-If you have suggestions for my code or want to challenge me with a task, feel free to contact me or report an *Issue* or reach out!
+## 🔥 Repository Maintainer
 
-Let's build something massive.
+**Maintained by Booster Boy 12**
 
----
-Maintained by [Boosterboy12]
+Passionate developer documenting a 30-day journey through Python, Data Analytics, Data Visualization, and Software Engineering.
+
+> "Discipline beats motivation. Consistency builds legends."
+
+⭐ If you find this repository useful, consider giving it a star.
