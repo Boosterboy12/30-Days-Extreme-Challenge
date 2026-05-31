@@ -1,19 +1,31 @@
-# 30-Days Extreme Coding Challenge 🚀
+# 🚀 30-Days Extreme Coding Challenge
 
 <p align="center">
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Language-Python%203.10+-blue?style=for-the-badge&logo=python" alt="Python">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   </a>
 
   <a href="https://code.visualstudio.com/">
-    <img src="https://img.shields.io/badge/Environment-VS%20Code-insignia?style=for-the-badge&logo=visual-studio-code" alt="VS Code">
+    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
   </a>
 
-  <a href="https://github.com/Boosterboy12">
-    <img src="https://img.shields.io/badge/VCS-Git%20%26%20GitHub-orange?style=for-the-badge&logo=github" alt="GitHub">
+  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge">
+    <img src="https://img.shields.io/github/stars/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge">
   </a>
 
-  <img src="https://img.shields.io/badge/Status-Day%206%20Live-brightgreen?style=for-the-badge" alt="Status">
+  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/network/members">
+    <img src="https://img.shields.io/github/forks/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <strong>
+    30 Days. Zero Excuses. Maximum Consistency.
+  </strong>
 </p>
 
 <p align="center">
