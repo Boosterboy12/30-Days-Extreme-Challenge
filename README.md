@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
   </a>
 
   <a href="https://code.visualstudio.com/">
@@ -10,29 +10,30 @@
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge">
-    <img src="https://img.shields.io/github/stars/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Stars">
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/network/members">
-    <img src="https://img.shields.io/github/forks/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge">
+    <img src="https://img.shields.io/github/forks/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Forks">
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
-    <img src="https://img.shields.io/github/last-commit/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Last%20Commit">
+  </a>
+
+  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/issues">
+    <img src="https://img.shields.io/github/issues/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Issues">
   </a>
 </p>
 
 <p align="center">
-  <strong>
-    30 Days. Zero Excuses. Maximum Consistency.
-  </strong>
+  <strong>30 Days. Zero Excuses. Maximum Consistency.</strong>
 </p>
 
 <p align="center">
-  <strong>"Consistency is the bridge between goals and accomplishment. Execute without mercy."</strong>
+  <em>"Consistency is the bridge between goals and accomplishment. Execute without mercy."</em>
 </p>
 
-This repository documents my high-intensity 30-day journey into the depths of Data Analytics, Advanced Python, and Algorithmic Logic.
 ---
 
 ## 🎯 Key Features & Milestones
