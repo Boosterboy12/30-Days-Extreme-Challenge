@@ -2,27 +2,27 @@
 
 <p align="center">
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
   </a>
 
   <a href="https://code.visualstudio.com/">
-    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+    <img src="https://img.shields.io/badge/VS_Code-00BFFF?style=for-the-badge&logo=visual-studio-code&logoColor=white">
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge">
-    <img src="https://img.shields.io/github/stars/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Stars">
+    <img src="https://img.shields.io/badge/Repository-Live-FF6B35?style=for-the-badge&logo=github&logoColor=white">
   </a>
 
-  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/network/members">
-    <img src="https://img.shields.io/github/forks/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Forks">
+  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/stargazers">
+    <img src="https://img.shields.io/badge/Support-Star_Repo-FFD700?style=for-the-badge&logo=starship&logoColor=black">
+  </a>
+
+  <a href="https://github.com/Boosterboy12">
+    <img src="https://img.shields.io/badge/Developer-BoosterBoy12-8A2BE2?style=for-the-badge&logo=github&logoColor=white">
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
-    <img src="https://img.shields.io/github/last-commit/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Last%20Commit">
-  </a>
-
-  <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/issues">
-    <img src="https://img.shields.io/github/issues/Boosterboy12/30-Days-Extreme-Challenge?style=for-the-badge&label=Issues">
+    <img src="https://img.shields.io/badge/Status-Day_6_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
   </a>
 </p>
 
