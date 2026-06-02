@@ -26,7 +26,7 @@ lr = LinearRegression()
 lr.fit(X_train, Y_train)
 
 # Predicting The Values
-print(lr.predict(X_test.iloc[[9]]))
+print(lr.predict(X_test.iloc[[2]]))
 
 # Making The Graph
 plt.figure(figsize=(10, 6))
