@@ -22,7 +22,7 @@
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
-    <img src="https://img.shields.io/badge/Status-Day_8_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
+    <img src="https://img.shields.io/badge/Status-Day_9_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
   </a>
 </p>
 
@@ -56,7 +56,9 @@
 | **05** | Matplotlib: Core Visual Foundations | ✅ Done | Categorical plotting (Vertical/Horizontal Bars, Scatters, Lines). |
 | **06** | Matplotlib Destruction & Custom Art | ✅ Done | Mastered `plt.style`. Engineering Combo & Dual Y-Axis Dashboards. |
 | **07** | Essence Of Linear Algebra (NO CODE)| ✅ Done | Learned The Basic Theories Of Linear Algebra. |
-| **08** | Linear Regresion | ✅ Done | Learned How To Make A Linear Regression Model. | 
+| **08** | Linear Regresion | ✅ Done | Learned How To Make A Linear Regression Model & What are the Types Of Linear Regression. | 
+| **09** | Linear Regression | ✅ Done | Finsished Linear Regression And Did Some Challenges And Started Logistic Regression |
+
 
 ---
 
