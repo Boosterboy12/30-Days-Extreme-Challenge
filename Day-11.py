@@ -28,5 +28,5 @@ x = np.array(student_data["hours_studied"]).reshape(-1, 1)
 )
 
 # Training the model
-model = DecisionTreeClassifier
+model = DecisionTreeClassifier()
 model.fit(x_train,y_train)
