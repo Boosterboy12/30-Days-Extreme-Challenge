@@ -10,17 +10,14 @@ from sklearn.metrics import accuracy_score
 # ========================================================================================= #
 #                                       Solution                                            #
 # ========================================================================================= #
-# Making the data 
-student_data = {
-"hours_studied": [1, 2, 3, 5, 6, 8],
-"result": [0, 0, 0, 1, 1, 1]
-}
+# Making the data
+student_data = {"hours_studied": [1, 2, 3, 5, 6, 8], "result": [0, 0, 0, 1, 1, 1]}
 x = student_data["hours_studied"]
 y = student_data["result"]
 x = np.array(student_data["hours_studied"]).reshape(-1, 1)
 
 # Splitting the data
-(x_train,x_test,y_train,y_test)=  train_test_split(
+x_train, x_test, y_train, y_test = train_test_split(
     x,
     y,
     test_size=0.2,
@@ -29,4 +26,22 @@ x = np.array(student_data["hours_studied"]).reshape(-1, 1)
 
 # Training the model
 model = DecisionTreeClassifier()
-model.fit(x_train,y_train)
+model.fit(x_train, y_train)
+
+# Predicting
+prediction = model.predict([[7]])
+print(prediction)
+
+# Calculating the accuracy
+y_pred = model.predict(x_test)
+print(accuracy_score(y_test, y_pred))
+
+# Task-2: Build a Decision Tree model to predict whether a player will be selected for a cricket team.
+
+# ========================================================================================= #
+#                                        Solution                                           #
+# ========================================================================================= #
+# Making The Data
+x1 = [[13, 1], [14, 1], [15, 0], [13, 0], [14, 1]]
+y1 = [1, 1, 0, 0, 1]
+ 
