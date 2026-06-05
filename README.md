@@ -22,7 +22,7 @@
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
-    <img src="https://img.shields.io/badge/Status-Day_9_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
+    <img src="https://img.shields.io/badge/Status-Day_11_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
   </a>
 </p>
 
@@ -58,6 +58,9 @@
 | **07** | Essence Of Linear Algebra (NO CODE)| ✅ Done | Learned The Basic Theories Of Linear Algebra. |
 | **08** | Linear Regresion | ✅ Done | Learned How To Make A Linear Regression Model & What are the Types Of Linear Regression. | 
 | **09** | Linear Regression | ✅ Done | Finsished Linear Regression And Did Some Challenges And Started Logistic Regression |
+| **10** | Logistic Regression | ✅ Done | Finished Logistic Regression And Did Some Tasks & Started Decision Trees |
+| **11** | Decision Trees | ✅ Done | Finished Decision Trees & Random forest |
+
 
 
 ---
