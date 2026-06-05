@@ -20,5 +20,13 @@ y = student_data["result"]
 x = np.array(student_data["hours_studied"]).reshape(-1, 1)
 
 # Splitting the data
+(x_train,x_test,y_train,y_test)=  train_test_split(
+    x,
+    y,
+    test_size=0.2,
+    random_state=1,
+)
 
-
+# Training the model
+model = DecisionTreeClassifier
+model.fit(x_train,y_train)
