@@ -44,4 +44,29 @@ print(accuracy_score(y_test, y_pred))
 # Making The Data
 x1 = [[13, 1], [14, 1], [15, 0], [13, 0], [14, 1]]
 y1 = [1, 1, 0, 0, 1]
- 
+
+# Splitting the data 
+x1_train,x1_test,y1_train,y1_test, = train_test_split(
+    x1,
+    y1,
+    test_size=0.2,
+    random_state=1,
+)
+
+# Training the model
+model = DecisionTreeClassifier()
+model.fit(x1_train,y1_train)
+
+# Predicting 
+prediction = model.predict([[12,1]])
+print(prediction)
+
+# Accuracy
+y1_pred = model.predict(x1_test)
+print(accuracy_score(y1_test, y1_pred))
+
+# Task-3: Create a Decision Tree model that predicts whether a customer will buy a gaming laptop.
+
+# ========================================================================================= @
+#                                       Solution                                            #
+# ========================================================================================= #
