@@ -20,7 +20,7 @@ df = pd.DataFrame(
     }
 )
 
-# Creating the models & Dataframes 
+# Creating the models & Dataframes
 df.drop("Employee_ID", axis=1, inplace=True)
 gender_model = LabelEncoder()
 department_model = OneHotEncoder()
@@ -33,8 +33,11 @@ department_df = department_model.fit_transform(df[["Department"]])
 age_df = age_model.fit_transform(df[["Age"]])
 experience_df = experience_model.fit_transform(df[["Experience"]])
 
-# Printing the result 
+# Printing the result
 print(gender_df, department_df, age_df, experience_df)
+
+# ==================================================================================================== #
+# ==================================================================================================== #
 
 # Task-2: A school wants to predict whether a student will pass or fail based on the available information.
 
@@ -43,15 +46,17 @@ print(gender_df, department_df, age_df, experience_df)
 # ========================================================================================= #
 
 # Creating the dataset for the second task
-df_challenge_2 = pd.DataFrame({
-    "Gender": ["Male", "Female", "Male", "Female", "Male"],
-    "Study_Hours": [2, 5, 4, 1, 6],
-    "Attendance": [60, 85, 75, 50, 90],
-    "City": ["Delhi", "Mumbai", "Chennai", "Delhi", "Mumbai"],
-    "Result": ["Fail", "Pass", "Pass", "Fail", "Pass"]
-})
+df_challenge_2 = pd.DataFrame(
+    {
+        "Gender": ["Male", "Female", "Male", "Female", "Male"],
+        "Study_Hours": [2, 5, 4, 1, 6],
+        "Attendance": [60, 85, 75, 50, 90],
+        "City": ["Delhi", "Mumbai", "Chennai", "Delhi", "Mumbai"],
+        "Result": ["Fail", "Pass", "Pass", "Fail", "Pass"],
+    }
+)
 
-# Creating the models 
+# Creating the models
 gender_challenge_2_model = LabelEncoder()
 hours_model = StandardScaler()
 attendance_model = StandardScaler()
@@ -63,22 +68,45 @@ hours_df = hours_model.fit_transform(df_challenge_2[["Study_Hours"]])
 attendance_df = attendance_model.fit_transform(df_challenge_2[["Attendance"]])
 city_df = city_model.fit_transform(df_challenge_2[["City"]])
 
-# Printing the result for 
-print(gender_challenge_2_df,hours_df,attendance_df,city_df)
+# Printing the result for
+print(gender_challenge_2_df, hours_df, attendance_df, city_df)
+
+# ==================================================================================================== #
+# ==================================================================================================== #
 
 # Task-3: An online store wants to predict whether a customer will purchase a product.]\
 
 # ==================================================================================================== #
 #                                            Solution                                                  #
 # ==================================================================================================== #
+def task_3():
+    # Making the data
+    df_challenge_3 = pd.DataFrame(
+        {
+            "Gender": ["Male", "Female", "Male", "Female", "Male"],
+            "Age": [22, 35, 28, 20, 40],
+            "City": ["Delhi", "Mumbai", "Chennai", "Delhi", "Mumbai"],
+            "Annual_Income": [25000, 60000, 45000, 22000, 80000],
+            "Purchased": ["No", "Yes", "Yes", "No", "Yes"],
+        }
+    )
 
-# Making the data
-df = pd.DataFrame({
-    "Gender": ["Male", "Female", "Male", "Female", "Male"],
-    "Age": [22, 35, 28, 20, 40],
-    "City": ["Delhi", "Mumbai", "Chennai", "Delhi", "Mumbai"],
-    "Annual_Income": [25000, 60000, 45000, 22000, 80000],
-    "Purchased": ["No", "Yes", "Yes", "No", "Yes"]
-})
+    # Creating the models
+    gender_challenge_3_model = LabelEncoder()
+    age_challenge_3_model = StandardScaler()
+    city_challenge_3_model = OneHotEncoder()
+    annual_income_model = StandardScaler()
 
-gender_challenge_3_model = LabelEncoder()
+    # Transforming the data
+    gender_challenge_3_df = gender_challenge_3_model.fit_transform(df_challenge_3["Gender"])
+    age_challenge_3_df = age_challenge_3_model.fit_transform(df_challenge_3[["Age"]])
+    city_challenge_3_df = city_challenge_3_model.fit_transform(df_challenge_3[["City"]])
+    annual_income_df = annual_income_model.fit_transform(df_challenge_3[["Annual_Income"]])
+
+    # Printing the result for
+    print(gender_challenge_3_df, age_challenge_3_df, city_challenge_3_df, annual_income_df)
+    print(department_df.toarray())
+    print(city_df.toarray())
+# ==================================================================================================== #
+#                                                 0 END  1                                             #
+# ==================================================================================================== #
