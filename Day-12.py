@@ -63,4 +63,22 @@ hours_df = hours_model.fit_transform(df_challenge_2[["Study_Hours"]])
 attendance_df = attendance_model.fit_transform(df_challenge_2[["Attendance"]])
 city_df = city_model.fit_transform(df_challenge_2[["City"]])
 
+# Printing the result for 
 print(gender_challenge_2_df,hours_df,attendance_df,city_df)
+
+# Task-3: An online store wants to predict whether a customer will purchase a product.]\
+
+# ==================================================================================================== #
+#                                            Solution                                                  #
+# ==================================================================================================== #
+
+# Making the data
+df = pd.DataFrame({
+    "Gender": ["Male", "Female", "Male", "Female", "Male"],
+    "Age": [22, 35, 28, 20, 40],
+    "City": ["Delhi", "Mumbai", "Chennai", "Delhi", "Mumbai"],
+    "Annual_Income": [25000, 60000, 45000, 22000, 80000],
+    "Purchased": ["No", "Yes", "Yes", "No", "Yes"]
+})
+
+gender_challenge_3_model = LabelEncoder()
