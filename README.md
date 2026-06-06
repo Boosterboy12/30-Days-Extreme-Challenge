@@ -60,6 +60,7 @@
 | **09** | Linear Regression | ✅ Done | Finsished Linear Regression And Did Some Challenges And Started Logistic Regression |
 | **10** | Logistic Regression | ✅ Done | Finished Logistic Regression And Did Some Tasks & Started Decision Trees |
 | **11** | Decision Trees | ✅ Done | Finished Decision Trees & Random forest |
+| **12** | Feauture Engineering | ✅ Done | Started 7 Practiced Some Questions Of Feature Engineering & Finished It. |
 
 
 
