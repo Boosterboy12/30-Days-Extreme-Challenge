@@ -61,6 +61,8 @@
 | **10** | Logistic Regression | ✅ Done | Finished Logistic Regression And Did Some Tasks & Started Decision Trees |
 | **11** | Decision Trees | ✅ Done | Finished Decision Trees & Random forest |
 | **12** | Feauture Engineering | ✅ Done | Started 7 Practiced Some Questions Of Feature Engineering & Finished It. |
+| **13** | Overfitting & Underfitting | ✅ Done | Studied The Concepts Of Overfitting, Underfitting, Bias, Variance|
+| **14** | End-to-End ML Project | ✅ Done | Build A Complete ML Pipeline And Started The Next Project |
 
 
 
