@@ -21,7 +21,7 @@
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
-    <img src="https://img.shields.io/badge/Status-Day_6_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
+    <img src="https://img.shields.io/badge/Status-Day_15_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
   </a>
 </p>
 <p align="center">
