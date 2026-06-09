@@ -4,6 +4,8 @@
     <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
   </a>
 
+  ![Visitors](https://komarev.com/ghpvc/?username=Boosterboy12&color=blueviolet&style=for-the-badge)
+
   <a href="https://code.visualstudio.com/">
     <img src="https://img.shields.io/badge/VS_Code-00BFFF?style=for-the-badge&logo=visual-studio-code&logoColor=white">
   </a>
