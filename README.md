@@ -1,4 +1,4 @@
-# 🚀 30-Days Extreme Coding Challenge
+<h1 align="center">🚀 30-Days Extreme Coding Challenge</h1>
 <p align="center">
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
