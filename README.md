@@ -20,7 +20,7 @@
   </a>
 
   <a href="https://github.com/Boosterboy12/30-Days-Extreme-Challenge/commits/main">
-    <img src="https://img.shields.io/badge/Status-Day_16_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
+    <img src="https://img.shields.io/badge/Status-Day_17_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white">
   </a>
 </p>
 <p align="center">
@@ -55,7 +55,7 @@ This repository documents my high-intensity 30-day journey into the depths of Da
 | **03** | Pandas: Data Manipulation & Cleaning | ✅ Done | Ingested hardware datasets from Kaggle; executed deep cleaning pipelines. |
 | **04** | Advanced Pandas & Matrix Operations | ✅ Done | Handled aggregations, indexing, and generated relational Heatmaps. |
 | **05** | Matplotlib: Core Visual Foundations | ✅ Done | Categorical plotting (Vertical/Horizontal Bars, Scatters, Lines). |
-| **06** | **Matplotlib Destruction & Custom Art** | ⚡ *Live* | **[TODAY]** Mastered `plt.style`. Engineering Combo & Dual Y-Axis Dashboards. |
+| **06** | **Matplotlib Destruction & Custom Art** | ✅ Done | Mastered `plt.style`. Engineering Combo & Dual Y-Axis Dashboards. |
 | **07** | Essence Of Linear Algebra| ✅ Done | Completed The 3 Blue 1 Brown PLaylist Essence Of Linear Algebra |
 | **08** | Started Linear Regression | ✅ Done | Made A Simple Linear Regression Model |
 | **09** | Linear Regression Finished | ✅ Done | Completed Linear Regression And Started Logistic Regression |
@@ -65,6 +65,8 @@ This repository documents my high-intensity 30-day journey into the depths of Da
 | **13** | Over & UnderFitting | ✅ Done | Understood Concepts Of Underfitting, Overfitting, Bias & Variance |
 | **14** | Ml Pipeline 1 | ✅ Done | Build An Complete Ml Pipeline On Housing Data |
 | **15** | Ml Pipeline 2 | ✅ Done | Build An Complete Ml Pipeline On Heart Disease Data |
+| **16** | Perceptron | ✅ Done | Introduction To Deep Learning: Understoond Concepts Like Perceptron & Forward Propogation (NO CODE) |
+| **17** | Backward Propogation | ✅ Done | Finished The Concept Of Backward Propogation (NO CODE) |
 ---
 
 ## 📦 Environment & System Configuration

@@ -1,4 +1,10 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Activate SCARLET protocol (beta)",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.cursorBlinking": "expand"
 }
