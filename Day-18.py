@@ -26,7 +26,7 @@ gpu_tensor = torch.from_numpy(arr1).to(device)
 
 # --- Verify location cleanly --- #
 if gpu_tensor.is_cuda:
-    print(f"💥 Success! Tensor moved to GPU: {gpu_tensor}")
+    print(f" Success! Tensor moved to GPU: {gpu_tensor}")
 else:
     print(f"Running on CPU: {gpu_tensor}")
 
@@ -40,14 +40,30 @@ matrix = torch.tensor([[1, 2, 3], [4, 5, 6]])
 reshaped_matrix = matrix.reshape(6, 1)
 print(reshaped_matrix)
 
+# ========================================================================================================================== #
+# ========================================================================================================================== #
 
-layer = nn.Linear(in_features=3,out_features=2)
+# Task 4: The Automated Weight Maker -> Initialize a Linear layer mapping 3 input features to 2 output features, and inspect its default internal parameters.
+
+# --- Solution --- #
+# Defining a fully connected (Linear) layer (Weights: 2x3, Bias: 2)
+layer = nn.Linear(in_features=3, out_features=2)
 print(layer.weight)
 print(layer.bias)
 
-tensor = torch.tensor([2.00,3.00],requires_grad=True)
-updated_tensor = tensor ** 2
-print(updated_tensor)
 # ========================================================================================================================== #
-#                                                          0 END 1                                                           #
+# ========================================================================================================================== #
+
+# Task 5: The Gradient Tracker -> Create a tensor with computational graph tracking enabled, apply a mathematical operation, and check its gradient history function.
+
+# --- Solution --- #
+# Creating a 1D float tensor with autograd tracking turned ON
+tensor = torch.tensor([2.00, 3.00], requires_grad=True)
+
+# Element-wise power operation; PyTorch dynamically stores the operation history in 'grad_fn'
+updated_tensor = tensor**2
+print(updated_tensor)
+
+# ========================================================================================================================== #
+#                                                          0 END 1                                                          #
 # ========================================================================================================================== #
