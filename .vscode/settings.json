@@ -6,5 +6,10 @@
   "workbench.colorTheme": "Activate SCARLET protocol (beta)",
   "editor.mouseWheelZoom": true,
   "editor.formatOnPaste": true,
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
+  "vscode-pets.petColor": "white",
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.theme": "forest",
+  "vscode-pets.throwBallWithMouse": true,
+  "terminal.integrated.initialHintCopilotCli": false
 }

@@ -1,6 +1,7 @@
 # Importing The Dependencies
 import numpy as np
 import torch
+import torch.nn as nn
 
 # ========================================================================================================================== #
 # ========================================================================================================================== #
@@ -39,6 +40,14 @@ matrix = torch.tensor([[1, 2, 3], [4, 5, 6]])
 reshaped_matrix = matrix.reshape(6, 1)
 print(reshaped_matrix)
 
+
+layer = nn.Linear(in_features=3,out_features=2)
+print(layer.weight)
+print(layer.bias)
+
+tensor = torch.tensor([2.00,3.00],requires_grad=True)
+updated_tensor = tensor ** 2
+print(updated_tensor)
 # ========================================================================================================================== #
 #                                                          0 END 1                                                           #
 # ========================================================================================================================== #
