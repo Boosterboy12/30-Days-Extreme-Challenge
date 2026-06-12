@@ -67,7 +67,7 @@ This repository documents my high-intensity 30-day journey into the depths of Da
 | **15** | Ml Pipeline 2 | ✅ Done | Build An Complete Ml Pipeline On Heart Disease Data |
 | **16** | Perceptron | ✅ Done | Introduction To Deep Learning: Understoond Concepts Like Perceptron & Forward Propogation (NO CODE) |
 | **17** | Backward Propogation | ✅ Done | Finished The Concept Of Backward Propogation (NO CODE) |
-| **18** |
+| **18** | ✅ Done | 
 ---
 
 ## 📦 Environment & System Configuration
