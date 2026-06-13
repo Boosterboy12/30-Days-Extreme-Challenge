@@ -37,7 +37,7 @@ model = ANN()
 # Sample Input
 sample_data = torch.tensor([25.0, 180.0])
 
-# Forward Pass
+# Predicting
 prediction = model(sample_data)
 print(prediction)
 
