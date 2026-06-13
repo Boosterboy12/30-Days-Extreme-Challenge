@@ -9,7 +9,9 @@
   "editor.cursorBlinking": "expand",
   "vscode-pets.petColor": "white",
   "vscode-pets.petSize": "medium",
-  "vscode-pets.theme": "forest",
+  "vscode-pets.theme": "autumn",
   "vscode-pets.throwBallWithMouse": true,
-  "terminal.integrated.initialHintCopilotCli": false
+  "terminal.integrated.initialHintCopilotCli": false,
+  "vscode-pets.position": "explorer",
+  "vscode-pets.disableEffects": true
 }
