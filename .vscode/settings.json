@@ -13,5 +13,6 @@
   "vscode-pets.throwBallWithMouse": true,
   "terminal.integrated.initialHintCopilotCli": false,
   "vscode-pets.position": "explorer",
-  "vscode-pets.disableEffects": true
+  "vscode-pets.disableEffects": true,
+  "python.REPL.enableREPLSmartSend": false
 }
