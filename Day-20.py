@@ -1,15 +1,19 @@
-# --- IMPORTING THE DEPENDENCIES -- #
-import tensorflow
-from tensorflow import keras
-from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
-from keras import Sequential
-from keras.layers import Dropout
-from tensorflow.keras import layers
-from keras.datasets import mnist
+# --- IMPORTING OS --- #
 import os
 
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "0"
-import tensorflow as tf
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
+# --- IMPORTING THE DEPENDENCIES -- #
+import tensorflow
+import keras
+from keras.callbacks import ReduceLROnPlateau, EarlyStopping
+
+# --- IMPORTING THE LAYERS --- #
+from keras import Sequential
+from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
+
+# --- IMPORTING THE DATASET --- #
+from keras.datasets import mnist
 
 # =========================================================================================================================== #
 # =========================================================================================================================== #
@@ -37,7 +41,6 @@ model.add(keras.layers.Dropout(0.2))
 
 # --- OUTPUT LAYER WITH SOFTMAX FOR 10 DIGIT CLASSES --- #
 model.add(Dense(10, activation="softmax"))
-print("DAY 20 STARTED!")
 
 # --- PRINT MODEL TOPOLOGY SUMMARY --- #
 model.build(input_shape=(None, 28, 28, 1))
@@ -64,12 +67,10 @@ X_test = X_test.reshape(-1, 28, 28, 1)
 model.compile(
     optimizer=keras.optimizers.Adam(learning_rate=0.001),
     loss="sparse_categorical_crossentropy",
-    metrics=["accuracy"]
+    metrics=["accuracy"],
 )
 
 # --- CALLBACKS FOR BETTER TRAINING --- #
-from keras.callbacks import ReduceLROnPlateau, EarlyStopping
-
 lr_scheduler = ReduceLROnPlateau(
     monitor="val_accuracy", factor=0.5, patience=2, verbose=1
 )
@@ -97,6 +98,9 @@ loss, accuracy = model.evaluate(X_test, y_test)
 print("Test Accuracy:", accuracy)
 print(f"Test Accuracy: {accuracy*100:.2f}%")
 
-# ================================================================================================= #
-#                                               0 END 1                                             #
-# ================================================================================================= #
+# --- SAVING THE MODEL --- #
+model.save("mnist_cnn.h5")
+
+# =========================================================================================================================== #
+#                                                          0 END 1                                                            #
+# =========================================================================================================================== #
