@@ -29,8 +29,11 @@ model.add(MaxPooling2D(pool_size=2, padding="valid", strides=2))
 model.add(Flatten())
 
 # --- FULLY CONNECTED DENSE LAYERS --- #
-model.add(Dense(80, activation="gelu"))
+model.add(Dense(100, activation="gelu"))
 model.add(Dense(50, activation="gelu"))
+
+# --- REGULARIZATION TO IMPROVE GENERALIZATION --- #
+model.add(keras.layers.Dropout(0.2))
 
 # --- OUTPUT LAYER WITH SOFTMAX FOR 10 DIGIT CLASSES --- #
 model.add(Dense(10, activation="softmax"))
@@ -59,10 +62,30 @@ X_test = X_test.reshape(-1, 28, 28, 1)
 
 # --- COMPILE MODEL WITH OPTIMIZER AND LOSS FUNCTION --- #
 model.compile(
-    optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"]
+    optimizer=keras.optimizers.Adam(learning_rate=0.001),
+    loss="sparse_categorical_crossentropy",
+    metrics=["accuracy"]
 )
-# --- TRAIN MODEL WITH AN 80/20 VALIDATION SPLIT --- #
-model.fit(X_train, y_train, epochs=6, validation_split=0.1)
+
+# --- CALLBACKS FOR BETTER TRAINING --- #
+from keras.callbacks import ReduceLROnPlateau, EarlyStopping
+
+lr_scheduler = ReduceLROnPlateau(
+    monitor="val_accuracy", factor=0.5, patience=2, verbose=1
+)
+
+early_stop = EarlyStopping(
+    monitor="val_accuracy", patience=4, restore_best_weights=True
+)
+
+# --- TRAIN MODEL --- #
+model.fit(
+    X_train,
+    y_train,
+    epochs=15,
+    validation_split=0.2,
+    callbacks=[lr_scheduler, early_stop],
+)
 
 # =========================================================================================================================== #
 # =========================================================================================================================== #
