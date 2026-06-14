@@ -84,6 +84,7 @@ model.fit(
     X_train,
     y_train,
     epochs=15,
+    batch_size=64,
     validation_split=0.2,
     callbacks=[lr_scheduler, early_stop],
 )
