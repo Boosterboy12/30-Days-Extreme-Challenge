@@ -4,35 +4,37 @@ import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 # --- IMPORTING THE DEPENDENCIES -- #
-import tensorflow
 import keras
 from keras.callbacks import ReduceLROnPlateau, EarlyStopping
 
 # --- IMPORTING THE LAYERS --- #
 from keras import Sequential
-from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
+from keras.layers import (
+    Dense,
+    Conv2D,
+    Flatten,
+    MaxPooling2D,
+    BatchNormalization,
+
+)
 
 # --- IMPORTING THE DATASET --- #
 from keras.datasets import mnist
 
 # =========================================================================================================================== #
 # =========================================================================================================================== #
-# Introduce a preprocessing sequence at the beginning of your model
-data_augmentation = keras.Sequential(
-    [
-        layers.RandomRotation(0.05),
-        layers.RandomZoom(0.05),
-    ]
-)
+
 # --- INITIALIZE SEQUENTIAL MODEL --- #
 model = Sequential()
 
 # --- FIRST FEATURE EXTRACTION LAYER BLOCK --- #
 model.add(Conv2D(20, kernel_size=(5, 5), padding="valid", activation="gelu"))
+model.add(BatchNormalization())
 model.add(MaxPooling2D(pool_size=2, padding="valid", strides=2))
 
 # --- SECOND FEATURE EXTRACTION LAYER BLOCK --- #
 model.add(Conv2D(60, kernel_size=(5, 5), padding="valid", activation="gelu"))
+model.add(BatchNormalization())
 model.add(MaxPooling2D(pool_size=2, padding="valid", strides=2))
 
 # --- FLATTEN THE MATRICES INTO A 1D VECTOR --- #
@@ -89,8 +91,8 @@ early_stop = EarlyStopping(
 model.fit(
     X_train,
     y_train,
-    epochs=15,
-    batch_size=64,
+    epochs=10,
+    batch_size=256,
     validation_split=0.2,
     callbacks=[lr_scheduler, early_stop],
 )
