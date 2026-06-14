@@ -99,7 +99,7 @@ print("Test Accuracy:", accuracy)
 print(f"Test Accuracy: {accuracy*100:.2f}%")
 
 # --- SAVING THE MODEL --- #
-model.save("mnist_cnn.h5")
+model.save("mnist_cnn.keras")
 
 # =========================================================================================================================== #
 #                                                          0 END 1                                                            #
