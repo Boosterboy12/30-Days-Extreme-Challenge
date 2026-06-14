@@ -96,3 +96,7 @@ loss, accuracy = model.evaluate(X_test, y_test)
 # --- PRINT FINAL PERFORMANCE ACCURACY METRICS --- #
 print("Test Accuracy:", accuracy)
 print(f"Test Accuracy: {accuracy*100:.2f}%")
+
+# ================================================================================================= #
+#                                               0 END 1                                             #
+# ================================================================================================= #
