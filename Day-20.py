@@ -17,7 +17,13 @@ from keras.datasets import mnist
 
 # =========================================================================================================================== #
 # =========================================================================================================================== #
-
+# Introduce a preprocessing sequence at the beginning of your model
+data_augmentation = keras.Sequential(
+    [
+        layers.RandomRotation(0.05),
+        layers.RandomZoom(0.05),
+    ]
+)
 # --- INITIALIZE SEQUENTIAL MODEL --- #
 model = Sequential()
 
